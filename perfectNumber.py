@@ -19,7 +19,7 @@ def perfectNumber(x):
 
 
     #if the sum of all the divisors of the number is equal to the test number
-    if result == x:
+    if sum(divisors(x))  == x:
 
         #set the result variable to be True
          result = True
@@ -29,5 +29,5 @@ def perfectNumber(x):
 
 
 #uncomment the following line to test the perfectNumber function it should return True
-if (perfectNumber(8128)): print("8128 is a perfect number")
+if (perfectNumber(8128)): print(" is a perfect number")
 
